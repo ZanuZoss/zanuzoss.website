@@ -117,6 +117,7 @@ h1 {
 }
 
 .button-ok-mb1 {
+    display: absolute;
     width: 85px;
     height: 25px;
     margin-top: 10px;
