@@ -117,11 +117,10 @@ h1 {
 }
 
 .button-ok-mb1 {
-    display: none;
     width: 85px;
     height: 25px;
     margin-top: 10px;
-    margin-left: 440px;
+    margin-left: 240px;
 }
 
 .popup-socials {
