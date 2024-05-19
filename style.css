@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #445e5e;
+}
+
+.background-image {
+    background: url('Media/bosnia.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.minesweeper {
+    width: 338px;
+    height: 426px;
+    background-image: url('Media/layout.png');
+    position: relative;
+    animation: none !important;
+}
+
+.zeroonezero, .smile, .zerozerozero {
+    margin-top: 32px;
+    margin-left: 31px;
+    
+}
+
+.sq1, .sq2, .sq3, .sq4, .sq5, .sq6, .sq7, .sq8, .sq9 {
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+}
+
+.sq1 {
+    margin-top: 27px;
+}
+
+.sq2 {
+    margin-top: 59px;
+}
+
+.sq3 {
+    margin-top: 91px;
+}
+
+.sq4 {
+    margin-top: 123px;
+}
+
+.sq5 {
+    margin-top: 155px;
+}
+
+.sq6 {
+    margin-top: 187px;
+}
+
+.sq7 {
+    margin-top: 219px;
+}
+
+.sq8 {
+    margin-top: 251px;
+}
+
+.sq9 {
+    margin-top: 283px;
+}
+
+.db, .bb {
+    margin: 0;
+}
