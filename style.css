@@ -3,6 +3,11 @@
 @font-face {
     font-family: 'RethinkSans';
     src: url('Media/RethinkSans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monaco';
+    src: url('Media/Monaco.ttf') format('truetype');
 } 
 
 html {
