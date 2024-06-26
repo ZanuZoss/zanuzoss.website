@@ -10,7 +10,7 @@
 <div align="center">
   A simple website with information about me and my projects
   
-  # [Visit this website](https://zanuzoss.website)
+  # [🌐 Visit this website](https://zanuzoss.website)
 
   <hr>
   
