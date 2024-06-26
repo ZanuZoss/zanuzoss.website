@@ -1,1 +1,1 @@
-# <p align="center">zanuzoss.website</p>
+<p align="center">zanuzoss.website</p>
