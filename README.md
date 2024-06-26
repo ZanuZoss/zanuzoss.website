@@ -1,1 +1,1 @@
-<kbd><img src="Media/logo.png" width="32px"></kbd>
+<kbd><img src="Media/logo.png" width="64px"></kbd>
