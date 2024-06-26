@@ -87,14 +87,14 @@ ab {
 
 .folder, .nexticon {
     width: auto;
-    height: 20px;
-    margin: 63px 0 0 25px;
+    height: 24px;
+    margin: 60px 0 0 25px;
     vertical-align: middle;
 }
 
 .nexticon {
     height: 30px;
-    margin: 59px 0 0 25px;
+    margin: 58px 0 0 25px;
 }
 
 .top {
@@ -138,7 +138,7 @@ h2 {
     font-weight: bolder;
     font-size: 25px;
     text-decoration: none;
-    margin: 55px 0 0 35px;
+    margin: 56px 0 0 30px;
 }
 
 .cdback:hover {
@@ -246,17 +246,35 @@ h3b {
       display: none;
     }
 
-    .commandline {
-        margin: 150px 0 0 10px;
-        font-size: 18px;
+    .zanuzoss {
+        margin: 35px 0 0 10px;
     }
 
+    .commandline {
+        margin: 150px 0 0 10px;
+        font-size: 15px;
+    }
+    
     h3b {
-        font-size: 18px;
+        font-size: 15px;
         margin: 0 0 0 10px;
     }
 
     h3, .links {
-        font-size: 18px;
+        font-size: 15px;
     }
-  }
+
+    .icon {
+        margin: 20px 0 0 20px;
+        width: 86px;
+        height: auto;
+    }
+    
+    .title {
+        margin: 130px 0 0 20px;
+    }
+    
+    .description {
+        margin: -3px 0 0 20px;
+    }
+}
