@@ -1,0 +1,79 @@
+<!-- Written by ZanuZoss -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <title>ZanuZoss Website</title>
+  <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <img id="Logo" src="Media/logo.png" alt="ZanuZoss Logo" width="5%">
+
+    <section id="Main">
+      <a>ZanuZoss Website https://zanuzoss.website/</a>
+      <div id="System"></div>
+
+      <script>
+        const info = `
+          ${navigator.userAgent} ${navigator.platform} ${screen.width}x${screen.height} ${Intl.DateTimeFormat().resolvedOptions().timeZone}
+        `;
+
+        document.getElementById("System").innerHTML = info;
+      </script>
+    </section>
+  </header>
+  <section id="About">
+    <h1>About</h1>
+    <a>Software Engineer, Graphic Designer.</a>
+    <a>Born in Italy, currently living in Poland.</a>
+  </section>
+
+  <section id="Projects">
+    <h1>Projects</h1>
+    <a>Showing 0 of 26 projects</a>
+    <a>All my projects are hidden, due to privacy reasons.</a>
+    <a>If you want to see my concepts/mockups, all of them are available to watch on my Socials.</a>
+  </section>
+
+  <section id="Contact">
+    <h1>Contact</h1>
+    <p>Use this e-mail if you want to ask me anything:</p>
+    <a href="mailto:contact@zanuzoss.website">[contact@zanuzoss.website]</a>
+
+    <br>
+
+    <p>Use this e-mail if you are interested in a partnership with me:</p>
+    <a href="mailto:partnership@zanuzoss.website">[partnership@zanuzoss.website]</a>
+
+    <br>
+
+    <p>You can also message me on:</p> <br>
+    <p>Discord: @zanuzoss</p> <br>
+    <p>Telegram: @zanuzoss</p>
+  </section>
+
+  <section id="Socials">
+    <h1>Socials</h1>
+    <p>I'm the most active on TikTok.</p>
+    <a href="https://www.tiktok.com/@MS4wLjABAAAAYfetCCtMbZEoj0ovx3d2epPvnHpdeqQTwF5zRTSNmGkt7iIXJ0P4bRy-i02yvPjT">[TikTok]</a>
+    <a href="https://www.youtube.com/@ZanuZoss">[YouTube]</a>
+    <a href="https://www.instagram.com/zanuzoss/">[Instagram]</a>
+    <a href="https://x.com/ZanuZoss">[X]</a>
+  </section>
+
+  <footer>
+    <a>2019 - 2025</a>
+    <a>This website sadly doesn't meets WCAG 2.1 standards :(</a>
+  </footer>
+</body>
+</html>
